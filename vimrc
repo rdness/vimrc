@@ -101,6 +101,7 @@ iab #i #include
 	"------ expand the commands to prototypes of cpp and c main files
 inore #cpp		<ESC>:r ~/.vim/templates/cppMain.txt<CR> 
 inore #cmain	<ESC>:r ~/.vim/templates/cMain.txt<CR>
+inore #cfunc	<ESC>:r ~/.vim/templates/cFunction.txt<CR> 
 inore #bash		<ESC>:r ~/.vim/templates/bash.txt<CR>
 inore #perl		<ESC>:r ~/.vim/templates/perl.txt<CR>
 
