@@ -1,0 +1,48 @@
+#include <string>
+
+int intInputValidation(string prompt);
+
+/*************************************************************************
+
+	Function Name:
+		intInputValidation
+																		
+	Purpose:															
+		Prints out a prompt to the user, checks that the response		 
+		is a valid integer and returns that as the user response		
+		if valid, else it will repeat the prompt until a valid			
+		response is entered.										 	
+																		
+	Parameters:															
+		string prompt -	The prompt printed out to the user. This		
+						prompt will automatically print out a 			
+						newline character after the prompt.				
+																		
+**************************************************************************/
+int intInputValidation(string prompt)
+{
+	int response = 0;
+	
+	// read in user input
+	cout << prompt << endl;
+	cin >> response;
+	
+	// Checks if cin input is valid
+	while (cin.fail())	
+	{
+		// clear cin buffer
+		cin.clear();
+		cin.ignore(INT_MAX, '\n');
+		
+		cout << endl;
+		cout << "Invalid input, please try again\n";
+	
+		// read in number of tosses
+		cout << prompt << endl;
+		cin >> response;
+	} 
+	
+	// return user response
+	return response;
+}
+

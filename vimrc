@@ -104,6 +104,9 @@ inore #cmain	<ESC>:r ~/.vim/templates/cMain.txt<CR> i
 inore #cfunc	<ESC>:r ~/.vim/templates/cFunction.txt<CR> i
 inore #bash		<ESC>:r ~/.vim/templates/bash.txt<CR> i
 inore #perl		<ESC>:r ~/.vim/templates/perl.txt<CR> i
+inore #ipv		<ESC>:r ~/.vim/templates/intInputValidation.txt <CR> i
+inore #infile	<ESC>:r ~/.vim/templates/infile.txt <CR> i
+inore #outfile	<ESC>:r ~/.vim/templates/outfile.txt <CR> i
 
 "************************************************************************** Update Last Revision line
 

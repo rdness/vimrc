@@ -1,0 +1,13 @@
+	// Open file pointer
+	ofstream outfile(FILENAME.c_str()); 
+	
+	// check for successful open
+	if(!outfile)
+	{
+		cerr << "Error in opening output file: " << FILENAME << endl;
+		exit(1);
+	}
+	
+	// close outfile
+	outfile.close();
+

@@ -1,0 +1,14 @@
+	// Open file pointer
+	ofstream infile(FILENAME.c_str()); 
+	
+	// check for successful open
+	if(!infile)
+	{
+		cerr << "Error in opening input file: " << FILENAME << endl;
+		exit(1);
+	}
+	
+	// close infile
+	infile.close();
+
+
