@@ -1,5 +1,5 @@
 	// Open file pointer
-	ofstream infile(FILENAME.c_str()); 
+	ifstream infile(FILENAME.c_str()); 
 	
 	// check for successful open
 	if(!infile)
