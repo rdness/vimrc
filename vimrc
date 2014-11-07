@@ -15,7 +15,9 @@ set ignorecase
 set smartcase
 
 " Turn on autoindent
-set autoindent
+"set autoindent
+"set smartindent
+set cindent
 
 " Highlight search results
 set hlsearch
@@ -99,7 +101,7 @@ iab #d #define
 iab #i #include
 
 	"------ expand the commands to prototypes of cpp and c main files
-inore #cpp		<ESC>:r ~/.vim/templates/cppMain.txt<CR> i 
+inore #cpp		<ESC>:r ~/.vim/templates/cppMain.txt<CR> i
 inore #cmain	<ESC>:r ~/.vim/templates/cMain.txt<CR> i
 inore #cfunc	<ESC>:r ~/.vim/templates/cFunction.txt<CR> i
 inore #bash		<ESC>:r ~/.vim/templates/bash.txt<CR> i
