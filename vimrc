@@ -101,15 +101,31 @@ iab #d #define
 iab #i #include
 
 	"------ expand the commands to prototypes of cpp and c main files
+"-- C/C++
 inore #cpp		<ESC>:r ~/.vim/templates/cppMain.txt<CR> i
 inore #cmain	<ESC>:r ~/.vim/templates/cMain.txt<CR> i
 inore #cclass	<ESC>:r ~/.vim/templates/cClass.txt<CR> i
+inore #csrc		<ESC>:r ~/.vim/templates/cSrc.txt<CR> i
 inore #cfunc	<ESC>:r ~/.vim/templates/cFunction.txt<CR> i
-inore #bash		<ESC>:r ~/.vim/templates/bash.txt<CR> i
-inore #perl		<ESC>:r ~/.vim/templates/perl.txt<CR> i
 inore #ipv		<ESC>:r ~/.vim/templates/intInputValidation.txt <CR> i
 inore #infile	<ESC>:r ~/.vim/templates/infile.txt <CR> i
 inore #outfile	<ESC>:r ~/.vim/templates/outfile.txt <CR> i
+
+"-- Java
+inore #java		<ESC>:r ~/.vim/templates/javaMain.txt<CR> i
+inore #jclass	<ESC>:r ~/.vim/templates/javaClass.txt<CR> i
+inore #jfunc	<ESC>:r ~/.vim/templates/javaFunction.txt<CR> i
+
+"-- BASH
+inore #bash		<ESC>:r ~/.vim/templates/bash.txt<CR> i
+
+"-- PERL
+inore #perl		<ESC>:r ~/.vim/templates/perl.txt<CR> i
+
+"-- Python
+
+"-- PHP
+
 
 "************************************************************************** Update Last Revision line
 
