@@ -123,6 +123,7 @@ inore #bash		<ESC>:r ~/.vim/templates/bash.txt<CR> i
 inore #perl		<ESC>:r ~/.vim/templates/perl.txt<CR> i
 
 "-- Python
+inore #python	<ESC>:r ~/.vim/templates/python.txt<CR> i
 
 "-- PHP
 
