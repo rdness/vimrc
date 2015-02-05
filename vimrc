@@ -17,7 +17,7 @@ set smartcase
 " Turn on autoindent
 "set autoindent
 "set smartindent
-set cindent
+"set cindent
 
 " Highlight search results
 set hlsearch
@@ -126,6 +126,8 @@ inore #perl		<ESC>:r ~/.vim/templates/perl.txt<CR> i
 
 "-- PHP
 
+"************************************************************************** Change Comment Color
+highlight Comment ctermfg=blue
 
 "************************************************************************** Update Last Revision line
 
