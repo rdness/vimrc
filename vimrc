@@ -34,13 +34,13 @@ set ts=4
 "************************************************************************** VI Tweaks for cygwin
 
 " Gets backspace key to work in cgywin
-set bs=2
+"set bs=2
 
 " Sets the cursor style
-let &t_ti.="\e[1 q"
-let &t_SI.="\e[5 q"
-let &t_EI.="\e[1 q"
-let &t_te.="\e[0 q"
+"let &t_ti.="\e[1 q"
+"let &t_SI.="\e[5 q"
+"let &t_EI.="\e[1 q"
+"let &t_te.="\e[0 q"
 
 "************************************************************************** VI Tweak
 
