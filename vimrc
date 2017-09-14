@@ -95,6 +95,9 @@ nore ; :
 inoremap <DOWN> <C-o>gj
 inoremap <UP> <C-o>gk
 
+"------ map esc to jj
+inoremap jj <esc>
+
 "************************************************************************** Keyword Expansion
 
 iab #d #define
