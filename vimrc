@@ -31,6 +31,9 @@ syntax on
 " Sets tab == 4 spaces
 set ts=4
 
+" Sets tabs to be expanded to 4 spaces
+set expandtab
+
 "************************************************************************** VI Tweaks for cygwin
 
 " Gets backspace key to work in cgywin
